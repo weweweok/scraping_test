@@ -64,5 +64,5 @@ if __name__ == '__main__':
   tatemono = sc.get_element_class("a","js-cassetLinkHref")
   price = sc.get_element_class("div","detailbox-property-point")
   data = [[tatemono[i],price[i]] for i in range(len(tatemono))]
-  write_csv(data)
+  #write_csv(data)
   print("file is closed")
